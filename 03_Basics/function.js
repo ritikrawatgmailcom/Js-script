@@ -16,7 +16,7 @@ function cal(num1){
     return num1
 }
 // console.log(cal(200));
-// console.log(cal(200,400)); // nowit not return whole value
+// console.log(cal(200,400)); // now it not return whole value
 
 function calculate(...num){
     return num

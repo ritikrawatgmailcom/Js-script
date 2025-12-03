@@ -6,7 +6,7 @@ const user={
         console.log(`${this.username},  welcome to website`);
     }
 }
-//this kya krta h => this cueernt context ko check krta h only
+//this kya krta h => this current context ko check krta h only
 // user.welcomeMessage()
 // user.username="sam";
 // user.welcomeMessage()

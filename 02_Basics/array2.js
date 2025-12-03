@@ -6,7 +6,7 @@ arr3 =arr.concat(arr2)
 // console.log(arr3);
 // console.log(arr[3][1]);
 
-arr.flat //ye array kr ander array ko flar simple array kr dega
+arr.flat //ye array kr ander array ko flat simple array kr dega
 
 let score1=100
 let score2=200
