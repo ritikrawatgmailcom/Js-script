@@ -1,0 +1,15 @@
+document.getElementByID('title')--> esse hm element ko target kr skte h 
+document.getElementByID('title').id --> ye value dega
+document.getElementByID('title).className
+document.getElementByID('title).getAttribute('id')
+innerHTML, innerContent, innerText
+<h1 id="title" class="heading">Dom Learning Done by Ritik <span style="display: none;" >test text</span></h1>
+so innerHTML->'Dom Learning Done by Ritik <span style="display: none;">test text</span>'
+   innerContent->'Dom Learning Done by Ritik'
+document.querySelector('h2')
+parent.lastElementChild ->isse hm element ko target kr skte h 
+parent.nextElementSibling --> ye next element dega
+
+
+
+
