@@ -10,6 +10,10 @@ document.querySelector('h2')
 parent.lastElementChild ->isse hm element ko target kr skte h 
 parent.nextElementSibling --> ye next element dega
 
+addEventListener(click, function(e))
 
+Means=> click krne pr function trigger hona h 
+
+setInterval(function(){},1000)=>to give value after a set of interval
 
 
