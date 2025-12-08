@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Test</h1>
+    <p id="owl">OWL</p>
+</body>
+<script>
+    // document.getElementById('owl').onclick=function(){
+    //     alert("ALERT!!!!")
+    // }
+
+    // document.getElementById('owl').addEventListener('click',function(){
+    //     alert('Wow its work!')
+    // })
+
+    // document.getElementById('owl').addEventListener('click', function (e) {
+    //     console.log(e);
+
+    // })
+    // ---------------------------------
+    // document.querySelector('#images').addEventListener('click',function(e){
+    //     console.log(e.target.parentNode);
+    //     let removeIt=e.target.parentNode;            // (ye element remove kr dega click krne pr) 
+    //     removeIt.remove();
+    // })
+    // Note== abhi alg main li pr click krunga then puri list ud jayegi now.
+    // method 2
+
+    document.querySelector('#images').addEventListener('click',function(e){
+        console.log(e.target.tarName);
+        if(e.target.tarName=="IMG"){
+            let removeIt=e.target.parentNode
+            removeIt.remove()
+        }
+        
+    })
+</script>
+
+</html>
+<!-- Study item for Event(type, timeStamp,defaultPrevented,target, toElement,srcElement,
+ CurrentTarget, clientX, clientY,screenX,screenY,altkey,ctrlkey,shiftkey,keyCode) -->
+
+<!-- //EventPropagation-> when bubble travel form inside to outside is called bubbling. -->
+<!-- ex->
+    document.getElementById('owl').addEventListener('click', function (e) {
+        console.log(e);
+
+    },false) 
+     ex->
+    document.getElementById('owl1').addEventListener('click', function (e) {
+        console.log(e);
+
+    },false) -->
+<!-- <ul>
+    <li>
+        <p></p>
+    </li>
+</ul> -->
+<!-- //Capturing -> when bubble move from top to bottom is called Capturing. -->
+<!-- ex->
+    document.getElementById('owl').addEventListener('click', function (e) {
+        console.log(e);
+
+    },true) 
+     ex->
+    document.getElementById('owl1').addEventListener('click', function (e) {
+        console.log(e);
+
+    },true) -->
+
+<!-- e.stopPropagation()== ye bubble ko move krne se rokta h -->
+
+<!-- ----------------------------------------------------------------- -->
+
+
+
