@@ -1,0 +1,43 @@
+EVENT TYPES
+Mouse Events: click, dblclick, mousemove, mouseover, mouseout
+Keyboard Events: keydown, keypress, keyup
+Form Events: submit, change, focus, blur
+Window Events: load, resize, scroll
+ 
+Event Attribute=        Description
+onclick	      =         Triggered when an element is clicked.
+onmouseover   =	        Fired when the mouse pointer moves over an element.
+onmouseout	  =         Occurs when the mouse pointer leaves an element.
+onkeydown	  =         Fired when a key is pressed down.
+onkeyup	      =         Fired when a key is released.
+onchange      =	        Triggered when the value of an input element changes.
+onload	      =         Occurs when a page has finished loading.
+onsubmit      =	        Fired when a form is submitted.
+onfocus	      =         Occurs when an element gets focus.
+onblur	      =         Fired when an element loses focus. 
+
+TimeStamp=>The timeStamp event property returns the number of milliseconds from the document was finished loading
+function myFunction(event) {
+  var n = event.timeStamp;
+  document.getElementById("demo").innerHTML = n;
+}
+ clientX,clientY ==> It will give value of coordinates
+ function showCoords(event) {
+  let x = event.clientX;
+  let y = event.clientY;
+  let text = "X coords: " + x + ", Y coords: " + y;
+  document.getElementById("demo").innerHTML = text;
+}
+altkey=
+function isKeyPressed(event) {
+  const x = document.getElementById("demo");
+  if (event.altKey) {
+    x.innerHTML = "The ALT key was pressed!";
+  } else {
+    x.innerHTML = "The ALT key was NOT pressed!";
+  }
+}
+
+
+
+

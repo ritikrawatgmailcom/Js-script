@@ -1,0 +1,16 @@
+javascript
+===========
+1.Synchronous(execute line by line)
+2.Single Threaded
+
+Execution Context=> Execute one line of code at a time.
+
+Note:- Each operation wait for the last one to complete before executing.
+
+
+
+note to change woding used queryselector and.innerhtml 
+settimeout(,) -->ye job schdule kr rha h 
+to stop it used cleartimeout(reference of settimeout)
+
+setInterval(function(){},1000)
