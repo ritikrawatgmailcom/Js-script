@@ -24,7 +24,7 @@ console.log(1+2+"2");//32
 console.log("1"+2+2);//122
 
 
-
+// Note;- typeof give type of variable
 
 
 
